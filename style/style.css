@@ -17,6 +17,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding-top: 45px;
+    margin-bottom: 30%;
 }
 
 .logo {
@@ -75,4 +76,151 @@ body {
     height: 40px;
     border-radius: 50%;
     object-fit: cover;
+}
+
+.title {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    line-height: 64px;
+    margin: 0 0 7px 0;
+}
+
+.title-en {
+    display: inline-block;
+    font-size: 20px;
+    line-height: 23px;
+    color: #787878;
+    margin-bottom: 38px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.movie-info {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.tag {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+    background: #fff;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin-right: 20px;
+}
+
+.country {
+    font-size: 16px;
+    line-height: 19px;
+    margin-right: 33px;
+}
+
+.play {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.play:before {
+    content: '';
+    width: 30px;
+    height: 30px;
+    background-image: url('../img/play.svg');
+    background-size: 100%;
+    margin-right: 15px;
+}
+
+.more {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.more:after {
+    content: '';
+    width: 30px;
+    height: 30px;
+    background-image: url('../img/play.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left: 15px;
+    transform: rotate(90deg);
+}
+
+.content {
+    background-color: #fff;
+    border-radius: 3px;
+    color: #000;
+    padding: 43px 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.poster {
+    display: block;
+    margin-top: -78px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background: #FF8F27;
+    color: #fff;
+    padding: 10px 42px;
+    font-size: 14px;
+    line-height: 16px;
+    border: none;
+}
+
+.actors-title {
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 150%;
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+
+.actors-list {
+    list-style: none;
+    padding-left: 15px;
+    text-decoration: underline;
+    margin: 0;
+}
+
+.full-info {
+    flex: 0.97;
+}
+
+.full-content {
+    display: flex;
+    justify-content: space-between;
+}
+.tabs-content {
+    margin-right: 70px;
+}
+.tabs-item {
+    color: #000;
+    text-decoration: none;
+    margin-right: 40px;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.tabs-item-active {
+    color: #FF8F27;
 }
