@@ -215,7 +215,12 @@ body {
 }
 
 .tabs-content {
+    display: none;
     margin-right: 70px;
+}
+
+.visible {
+    display: block;
 }
 
 .tabs {
